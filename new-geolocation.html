@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<h3>My Google Maps Demo</h3>
+<div id="map"></div>
+<script>
+    function initMap() {
+        var belgium = {lat: 50.8507507, lng: 4.7242961};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: belgium
+        });
+        var marker = new google.maps.Marker({
+            position: belgium,
+            map: map
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdxSSgZRu27tS4rlwcbDihcgW3um4avFE&callback=initMap">
+</script>
+</body>
+</html>
