@@ -1,0 +1,25 @@
+{
+  "name": "gerdje-hc.github.io",
+  "version": "1.0.0",
+  "description": "mijn oefeningen tijdens de lessen",
+  "main": "new-geoLocation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerdje-hc/Gerdje-hc.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gerdje-hc/Gerdje-hc.github.io/issues"
+  },
+  "homepage": "https://github.com/Gerdje-hc/Gerdje-hc.github.io#readme",
+  "dependencies": {
+    "3d": "0.0.0",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "save": "^2.3.1"
+  }
+}

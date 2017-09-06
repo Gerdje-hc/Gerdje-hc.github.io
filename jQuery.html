@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id= "title">...</h1>
+<button id="mybutton">My button </button>
+<div id="mycontent"><h2>I Love jQuery</h2> </div>
+<div id ="linkblok"><span><button id="link1">Goto 1</button><button>Goto 2</button><button>Goto 3</button></span></div>
+<input type="text" name="firstName" value="Jimi"/>
+<input type="checkbox" name="musician" checked/>
+
+
+
+<script src="node_modules/jquery/dist/jquery.js">
+</script>
+
+<script>
+    var h = document.getElementById("title");
+    h.innerHTML= "<h2>Welkom to my website</h2>";
+
+    jQuery("#title").html ("Welkom op mijn website");
+
+    $(document).ready(function () {
+        $("#mybutton").click (function () {
+            $("#mycontent").fadeToggle();   // button animatie text fade out
+
+        })
+        $(document).ready(function(){
+            $("link1").click(function(){
+                $("mycontent").css({"background-color": "yellow", "font-size": "200%"});
+            });
+        });
+    })
+</script>
+</body>
+</html>
