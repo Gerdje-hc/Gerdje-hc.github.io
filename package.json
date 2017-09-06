@@ -18,7 +18,8 @@
   "homepage": "https://github.com/Gerdje-hc/Gerdje-hc.github.io#readme",
   "dependencies": {
     "3d": "0.0.0",
-    "jquery": "^3.2.1",
+    "jquery": "^2.1.4",
+    "jquery-mobile": "^1.4.1",
     "moment": "^2.18.1",
     "save": "^2.3.1"
   }
